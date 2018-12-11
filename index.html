@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+<title>MyApp-Elderly-need-this</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+::-webkit-scrollbar { display:none }
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+</style>
+</head>
+<body>
+<!-- loading up all the audio-->
+	<audio id="water" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="water_request.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	<audio id="Sad" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="Sad.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="Tired" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="Tired.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="Angry" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="Angry.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="Happy" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="Happy.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="Excited" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="Excited.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+		<audio id="Excited" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="Excited.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+		<audio id="Vomit" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="Vomit.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+		<audio id="Toilet" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="Toilet.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+		<audio id="medicine" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="medicine.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+		<audio id="HeadHurts" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="HeadHurts.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="StomachHurts" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="StomachHurts.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="EyesHurt" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="EyesHurt.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="LegsHurt" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="LegsHurt.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="ArmHurts" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="ArmHurts.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="FeetHurt" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="FeetHurt.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+	
+	
+		
+		<audio id="Pee" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="pee.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="Poo" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="poo.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+		<audio id="Scrub" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="scrub.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="Hair-Wash" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="HairWash.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+			<audio id="Shower" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="Shower.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+			<audio id="Bath" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="HairWash.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+		
+		<audio id="FastFood" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="FastFood.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		
+		<audio id="Breakfast" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="Breakfast.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		
+		<audio id="Fruit" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="Fruit.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		
+		<audio id="Vegetables" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="Vegetables.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		
+		<audio id="HealthyFood" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="HealthyFood.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		
+		<audio id="Juice" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="Juice.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		
+		<audio id="Coffee" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="CoffeorTea.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+			<audio id="WashBody" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="washBody.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		
+		
+		
+		<audio id="red" preload="metadatsa"> <!--preload just makes it play on click faster-->
+		<source src="Red.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		
+		<audio id="orange" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="Orange.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		
+		<audio id="yellow" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="yellow.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+		<audio id="green" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="green.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+		<audio id="blue" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="blue.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+		<audio id="DB" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="DB.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+		<audio id="pink" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="pink.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+		<audio id="purple" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="purple.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+			<audio id="black" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="black.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+		<audio id="WashFeet" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="WashFeet.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+		
+		<audio id="WashHands" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="WashHands.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+		
+		<audio id="WashFace" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="WashFace.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+		
+		<audio id="washBody" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="washBody.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+		<audio id="pain" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="NoiAmNotinPain.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="alone" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="PleaseLeaveMealone.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="home" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="Can I go home.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="bed" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="CanUplsPutMeTobed.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+		<audio id="food" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="CanIhaveFood.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="day" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="Haveagreatday.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="out" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="canUplsTakeMeOut.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="weather" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="Howistheweather.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="hate" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="IhateIt.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="love" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="IloveIt.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="want" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="IwantIt.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+		
+		<audio id="pls" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="YesPlease.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+		
+		<audio id="thx" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="NoThankYou.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+		
+		<audio id="yay" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="Thanks.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+		
+		<audio id="U" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="HowRU.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="time" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="time.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+		
+		<audio id="dir" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="directions.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+	
+		
+		<audio id="sit" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="sit.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+		
+		<audio id="stand" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="stand.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+		
+		<audio id="sleep" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="sleep.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="eat" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="eat.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+		<audio id="walk" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="walk.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+		<audio id="weather" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="Howistheweather.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+	<audio id="fine" preload="metadata"> <!--preload just makes it play on click faster-->
+		<source src="ImFineThanks.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+	</audio>
+	
+	
+	
+
+<!-- Navbar (sit on top) -->
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+  </div>
+</div>
+
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+<div class="w3-row-padding w3-center">
+    <h1 class="w3-center">TalkForMe</h1>
+	
+    <div class="w3-col m4">
+	<a href="#Urgent">
+      <img src="Siren.svg" style="width:120%"  class="w3-hover-opacity">
+	</div>
+	
+    <div class="w3-col m4">
+	<a href="#BasicNeeds">
+      <img src="BASICNEEDS.ON.DRAWRING.svg" style="width:115%"  class="w3-hover-opacity" >
+	</div>
+	
+	<div class="w3-col m4">
+		<a href="#Colours">
+      <img src="COLOURSmadeOnDrwarings (2).svg" style="width:120%"class="w3-hover-opacity" >
+      </a>
+	</div>
+	
+	<div class="w3-col m4">
+	<a href="#Feelings">
+      <img src="FeelingsOndrawing (2).svg" style="width:105%" class="w3-hover-opacity">
+      </a>
+	</div>
+	
+	<div class="w3-col m4">
+		<a href="#Sentences">
+      <img src="LineMadeOnDrawings (3).svg" style="width:100%"  class="w3-hover-opacity">
+	 </a>
+	</div>
+	
+	<div class="w3-col m4">
+	<a href="#FoodandDrinks">
+      <img src="FOOD&DRINKS.made.on.drawing (1).svg" style="width:100%"  class="w3-hover-opacity" alt="This link goes to Menu 1">
+	  </a>
+	</div>
+	
+	<div class="w3-panel w3-card w3-light-grey"></div>
+	</div>
+	
+ 
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Container (Menu 1 Section) -->
+<div class="w3-content w3-container w3-padding-64" id="Urgent">
+
+  <div class="w3-row-padding w3-center">
+    <h1 class="w3-center">Urgent</h1>
+    <div class="w3-col m4">
+      <img src="Toilet.svg" style="width:100%" onclick="onClick(this); document.getElementById('Toilet').play();" class="w3-hover-opacity" alt="I need the Toilet">
+	</div>
+	
+    <div class="w3-col m4">
+      <img src="vomit.svg" style="width:100%" onclick="onClick(this); document.getElementById('Vomit').play();" class="w3-hover-opacity" alt="I need to vomit">
+	</div>
+	
+	<div class="w3-col m4">
+      <img src="medicine.svg" style="width:100%" onclick="onClick(this); document.getElementById('medicine').play();" class="w3-hover-opacity" alt="I need my medicine">
+	</div>
+	<div class="w3-panel w3-card w3-light-grey"></div>
+	</div>
+
+
+	<div class="w3-panel w3-card 	w3-light-blue"><h4>My ....... Hurts</h4></div>
+	
+	
+	<div class="w3-col m4">
+      <img src="woundedHead.svg" style="width:100%" onclick="onClick(this); document.getElementById('HeadHurts').play();" class="w3-hover-opacity" alt="my head hurts">
+	</div>
+	
+	<div class="w3-col m4">
+      <img src="stomach.svg" style="width:90%" onclick="onClick(this); document.getElementById('StomachHurts').play();" class="w3-hover-opacity" alt="my Stomach hurts">
+	</div>
+	
+	<div class="w3-col m4">
+      <img src="eye.svg" style="width:100%" onclick="onClick(this); document.getElementById('EyesHurt').play();" class="w3-hover-opacity" alt="my Eyes hurts">
+	</div>
+	
+	<div class="w3-col m4">
+      <img src="muscle.svg" style="width:100%" onclick="onClick(this); document.getElementById('ArmHurts').play();" class="w3-hover-opacity" alt="my Arm hurts">
+	</div>
+	
+	<div class="w3-col m4">
+      <img src="legs.svg" style="width:90%" onclick="onClick(this); document.getElementById('LegsHurt').play();" class="w3-hover-opacity" alt="my Legs hurts">
+	</div>
+	
+		<div class="w3-col m4">
+      <img src="foot.svg" style="width:100%" onclick="onClick(this); document.getElementById('FeetHurt').play();" class="w3-hover-opacity" alt="my Feet hurts">
+	</div>
+	<div class="w3-panel w3-card w3-light-grey"></div>
+	</div>
+	
+	
+<footer class="w3-center w3-light-blue w3-padding-64 w3-opacity w3-hover-opacity-off"> <a href="#portfolio" class="w3-button w3-dark-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a> <div class="w3-xlarge w3-section"> 
+    </div> </footer>
+
+<!-- Container (Menu 2 Section) -->
+<div class="w3-content w3-container w3-padding-64" id="BasicNeeds">
+
+  <div class="w3-row-padding w3-center">
+    <h1 class="w3-center">Basic Needs</h1>
+
+	
+    <div class="w3-col m4">
+	<a href="#BasicQuestions">
+      <img src="BQ-CIRCLE.svg" style="width:110%"  class="w3-hover-opacity" >
+	  </a>
+	  </div>
+	  
+
+	<div class="w3-col m4">
+	<a href="#Hygiene">
+      <img src="Hygiene-CIRCLE.svg" style="width:110%"  class="w3-hover-opacity" >
+	</a>
+	</div>
+	
+	<div class="w3-col m4">
+		<a href="#BasicResponses">
+      <img src="BA-CIRCLE2.svg" style="width:110%" class="w3-hover-opacity" alt="This link goes to Menu 1">
+	  </a>
+	</div>
+	<div class="w3-panel w3-card w3-light-grey"></div>
+	</div>
+	</div>
+	<footer class="w3-center w3-light-blue w3-padding-64 w3-opacity w3-hover-opacity-off"> <a href="#portfolio" class="w3-button w3-dark-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a> <div class="w3-xlarge w3-section"> 
+    </div> </footer>
+	
+	<!-- Container (Menu 3 Section) -->
+
+
+    	<div class="w3-content w3-container w3-padding-64" id="BasicQuestions">
+
+  <div class="w3-row-padding w3-center">
+    <h1 class="w3-center">Basic Questions</h1>
+
+
+<div class="w3-container">
+
+  <div class="w3-panel w3-card w3-pale-blue" onclick="document.getElementById('U').play()"><p>How are you?</p></div>
+  <div class="w3-panel w3-card-2" onclick="document.getElementById('weather').play()" alt="I need to vomit"><p>How is the weather?</p></div>
+  <div class="w3-panel w3-card-4 w3-pale-blue" onclick="document.getElementById('out').play()" class="w3-hover-opacity" alt="I need to vomit"><p>Can you please take me out?</p></div>
+  <div class="w3-panel w3-card" onclick="document.getElementById('food').play()" class="w3-hover-opacity" alt="I need to vomit"><p>Can i have food?</p></div>
+  <div class="w3-panel w3-card-2 w3-pale-blue" onclick="document.getElementById('bed').play()" play();" class="w3-hover-opacity" alt="I need to vomit"><p>can you please put me to bed?</p></div>
+  <div class="w3-panel w3-card-4"onclick="document.getElementById('dir').play()".play();" class="w3-hover-opacity" alt="I need to vomit"><p>What are the directions?</p></div>
+  <div class="w3-panel w3-card w3-pale-blue"onclick="document.getElementById('time').play()".play();" class="w3-hover-opacity" alt="I need to vomit"><p>what time is it?</p></div>
+  <div class="w3-panel w3-card-2" onclick="document.getElementById('home').play()" class="w3-hover-opacity" alt="I need to vomit"><p>Can i go home?</p></div>
+  
+</div>
+</div>
+    
+	<footer class="w3-center w3-light-blue w3-padding-64 w3-opacity w3-hover-opacity-off"> <a href="#portfolio" class="w3-button w3-dark-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a> <div class="w3-xlarge w3-section"> 
+    </div> </footer>
+	
+	<div class="w3-content w3-container w3-padding-64" id="BasicResponses">
+
+  <div class="w3-row-padding w3-center">
+    <h1 class="w3-center">Basic Responses</h1>
+
+<div class="w3-container">
+
+ <div class="w3-panel w3-card-4" onclick="document.getElementById('pls').play()" class="w3-hover-opacity" alt="my Feet hurts"><p>Yes Please</p></div>
+  <div class="w3-panel w3-card w3-pale-red" onclick="document.getElementById('thx').play()" class="w3-hover-opacity" alt="my Feet hurts"><p>No thank You</p></div>
+  <div class="w3-panel w3-card-2" onclick="document.getElementById('yay').play()" class="w3-hover-opacity" alt="my Feet hurts"><p>Thank You</p></div>
+  <div class="w3-panel w3-card w3-pale-red" onclick="document.getElementById('pain').play()" class="w3-hover-opacity" alt="my Feet hurts"><p>No I am not in pain</p></div>
+  <div class="w3-panel w3-card-2 "><p>I cant Hear You</p></div>
+  <div class="w3-panel w3-card-4 w3-pale-red"><p>I cant speak</p></div>
+  <div class="w3-panel w3-card" onclick="document.getElementById('day').play()" class="w3-hover-opacity" alt="my Feet hurts"><p>Have a great day</p></div>
+  <div class="w3-panel w3-card-2 w3-pale-red" onclick="document.getElementById('fine').play()"><p>Im fine thanks</p></div> 
+  <div class="w3-panel w3-card-4"onclick="document.getElementById('alone').play()" class="w3-hover-opacity" alt="my Feet hurts"><p>Please leave me alone</p></div>
+  <div class="w3-panel w3-card w3-pale-red"onclick="document.getElementById('love').play()" class="w3-hover-opacity" alt="my Feet hurts"><p>I love it</p></div>
+  <div class="w3-panel w3-card-2 w3-pale-red"onclick="document.getElementById('hate').play()" class="w3-hover-opacity" alt="my Feet hurts"><p>I hate it</p></div>
+    <div class="w3-panel w3-card "onclick="document.getElementById('want').play()"class="w3-hover-opacity" alt="my Feet hurts"><p>I want it</p></div>
+</div>
+</div>
+ 
+ 
+	<footer class="w3-center w3-light-blue w3-padding-64 w3-opacity w3-hover-opacity-off"> <a href="#portfolio" class="w3-button w3-dark-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a> <div class="w3-xlarge w3-section"> 
+    </div> </footer>
+
+<div class="w3-content w3-container w3-padding-64" id="Hygiene">
+
+  <div class="w3-row-padding w3-center">
+    <h1 class="w3-center">Hygiene</h1>
+	
+    <div class="w3-col m2"> <img src="water-drop.svg" style="width:100%" onclick="onClick(this); document.getElementById('Pee').play();" class="w3-hover-opacity" alt="I need to pee"> </div>
+	 <div class="w3-col m2"> <img src="poop.svg" style="width:100%" onclick="onClick(this); document.getElementById('Poo').play();" class="w3-hover-opacity" alt="I need to poo"></div>
+	  <div class="w3-col m2"> <img src="shower.svg" style="width:100%" onclick="onClick(this); document.getElementById('Shower').play();" class="w3-hover-opacity" alt="I need to shower"> </div>
+	   <div class="w3-col m2"> <img src="bathtub.svg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="This link goes to Menu 1"> </div> 
+	   <div class="w3-col m2"> <img src="sponge.svg" style="width:100%" onclick="onClick(this); document.getElementById('Scrub').play();" class="w3-hover-opacity" alt="Scrub"> </div>
+	    <div class="w3-col m2"> <img src="hair-wash.svg" style="width:100%" onclick="onClick(this); document.getElementById('Hair-Wash').play();" class="w3-hover-opacity" alt=" Hair Wash"> </div>
+		<div class="w3-panel w3-card w3-light-grey"></div>
+		 </div>
+		
+		 
+	<div class="w3-panel w3-card 	w3-light-blue"><h4>I Need to wash my  ....... </h4></div>
+	
+	<div class="w3-col m3">
+		  <img src="hands.svg" style="width:100%" onclick="onClick(this); document.getElementById('WashHands').play();" class="w3-hover-opacity" alt="I need to wash my hands">
+	</div>
+
+    <div class="w3-col m3">
+      <img src="wash-feet.svg" style="width:100%" onclick="onClick(this); document.getElementById('WashFeet').play();" class="w3-hover-opacity" alt="I need to wash my feet"> 
+    </div>
+
+    <div class="w3-col m3">
+      <img src="wash-face.svg" style="width:100%" onclick="onClick(this); document.getElementById('WashFace').play();" class="w3-hover-opacity" alt="I need to wash my face">">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="wash-body.svg" style="width:100%" onclick="onClick(this); document.getElementById('washBody').play();" class="w3-hover-opacity" alt="I need to wash my body">
+  		 </div>
+		 <div class="w3-panel w3-card w3-light-grey"></div>
+		  </div>
+
+	<footer class="w3-center w3-light-blue w3-padding-64 w3-opacity w3-hover-opacity-off"> <a href="#portfolio" class="w3-button w3-dark-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a> <div class="w3-xlarge w3-section"> 
+    </div> </footer>
+	
+	<!-- Container (Menu 2 Section) -->
+<div class="w3-content w3-container w3-padding-64" id="Feelings">
+<div class="w3-row-padding w3-center">
+    <h1 class="w3-center">Feelings</h1>
+ 
+ 
+  
+  <div class="w3-panel w3-card w3-light-blue"><h4>I am ......</h4></div>
+  
+    <div class="w3-col m4">
+      <img src="happy.svg" style="width:100%" onclick="onClick(this); document.getElementById('Happy').play();" class="w3-hover-opacity" alt="I am Happy">
+	</div>
+	
+	
+    <div class="w3-col m4">
+      <img src="sad.svg" style="width:100%" onclick="onClick(this); document.getElementById('Sad').play();" class="w3-hover-opacity" alt="I am Sad">
+	</div>
+	
+    <div class="w3-col m4">
+      <img src="excited.svg" style="width:100%" onclick="onClick(this); document.getElementById('Excited').play();" class="w3-hover-opacity" alt="I am Excited">
+	</div>
+	
+	
+    <div class="w3-col m4">
+      <img src="tired.svg" style="width:100%" onclick="onClick(this); document.getElementById('Tired').play();" class="w3-hover-opacity" alt="I am Tired">
+	</div>
+	
+	
+    <div class="w3-col m4">
+      <img src="angry.svg" style="width:100%"onclick="onClick(this); document.getElementById('Angry').play();" class="w3-hover-opacity" alt="I am Angry">
+	</div>
+	<div class="w3-panel w3-card w3-light-grey"></div>
+	</div>
+</div>
+
+<footer class="w3-center w3-light-blue w3-padding-64 w3-opacity w3-hover-opacity-off"> <a href="#portfolio" class="w3-button w3-dark-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a> <div class="w3-xlarge w3-section"> 
+    </div> </footer>
+	
+<!-- Container (Mr G added for colours Section) -->
+
+<div class="w3-content w3-container w3-padding-64" id="Colours">
+
+ <div class="w3-row-padding w3-center">
+
+    <h1 class="w3-center">Colours</h1>
+     <div class="w3-col m4">
+     	<a href="#menu1">
+    <img src="red.svg" style="width:100%"  onclick="onClick(this); document.getElementById('red').play();" class="w3-hover-opacity" alt="I need to wash my body">
+	</div>
+	
+	<div class="w3-col m4">
+      <img src="orange.svg" style="width:100%"  onclick="onClick(this); document.getElementById('orange').play();" class="w3-hover-opacity">
+	</div>
+	
+	<div class="w3-col m4">
+      <img src="yellow.svg" style="width:100%"onclick="onClick(this); document.getElementById('yellow').play();" class="w3-hover-opacity">
+	</div>
+	
+	<div class="w3-col m4">
+      <img src="green.svg" style="width:100%" onclick="onClick(this); document.getElementById('green').play();" class="w3-hover-opacity">
+	</div> 
+	
+	<div class="w3-col m4">
+      <img src="blue.svg" style="width:100%" onclick="onClick(this); document.getElementById('blue').play();" class="w3-hover-opacity">
+	</div> 
+	
+	<div class="w3-col m4">
+      <img src="darkBlue.svg" style="width:100%" onclick="onClick(this); document.getElementById('DB').play();" class="w3-hover-opacity">
+	</div> 
+	
+	<div class="w3-col m4">
+      <img src="pink.svg" style="width:100%"  onclick="onClick(this); document.getElementById('pink').play();" class="w3-hover-opacity">
+	</div> 
+	
+	<div class="w3-col m4">
+      <img src="purple.svg" style="width:100%" onclick="onClick(this); document.getElementById('purple').play();" class="w3-hover-opacity">
+	</div> 
+	
+	<div class="w3-col m4">
+      <img src="black.svg" style="width:100%"  onclick="onClick(this); document.getElementById('black').play();" class="w3-hover-opacity">
+	</div> 
+	<div class="w3-panel w3-card w3-light-grey"></div>
+	
+	
+	</div>
+		</div>
+ 
+
+ <div class="w3-content w3-container w3-padding-64" id="FoodandDrinks">
+
+  <div class="w3-row-padding w3-center">
+    <h1 class="w3-center">Food & Drinks</h1>
+	
+	<div class="w3-panel w3-card 	w3-light-blue"><h4>Can I please have some  ....... </h4></div>
+    <div class="w3-col m2"> <img src="fruit.svg" style="width:100%" onclick="onClick(this); document.getElementById('Fruit').play();" class="w3-hover-opacity" alt="can i please have some Fruit"> </div>
+	 <div class="w3-col m2"> <img src="vegetables.svg" style="width:100%" onclick="onClick(this); document.getElementById('Vegetables').play();" class="w3-hover-opacity" alt="can i please have some Vegetables">  </div>
+	  <div class="w3-col m2"> <img src="fast-food.svg" style="width:100%" onclick="onClick(this); document.getElementById('FastFood').play();" class="w3-hover-opacity" alt="can i please have some Fast food">  </div>
+	    <div class="w3-col m2"> <img src="salad.svg" style="width:100%" onclick="onClick(this); document.getElementById('HealthyFood').play();" class="w3-hover-opacity" alt="can i please have some Healthy Food"> </div>
+			    <div class="w3-col m2"> <img src="sandwich.svg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="This link goes to Menu 1"> </div>
+					    <div class="w3-col m2"> <img src="breakfast.svg" style="width:100%" onclick="onClick(this); document.getElementById('Breakfast').play();" class="w3-hover-opacity" alt="can i please have some Breakfast"> </div>
+							  
+	  <div class="w3-col m4"> <img src="Juice.svg" style="width:100%" onclick="onClick(this); document.getElementById('Juice').play();" class="w3-hover-opacity" alt="can i please have some Juice"> </div> 
+	   <div class="w3-col m4"> <img src="coffee.svg" style="width:100%" onclick="onClick(this); document.getElementById('Coffee').play();" class="w3-hover-opacity" alt="can i please have some Coffee or Tea"> </div>
+	   	   <div class="w3-col m4"> <img src="water.svg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="This link goes to Menu 1"> </div>
+		 	<div class="w3-panel w3-card w3-light-grey"></div>
+		 	 </div>
+		 
+		 <div class="w3-content w3-container w3-padding-64" id="Sentences">
+
+ <div class="w3-row-padding w3-center">
+
+    <h1 class="w3-center">Verbs/Ations</h1>
+     <div class="w3-col m4">
+     	
+    <img src="sit.svg" style="width:100%" onclick="onClick(this); document.getElementById('sit').play();" class="w3-hover-opacity">
+	</div>
+	
+	<div class="w3-col m4">
+      <img src="stand.svg" style="width:100%" onclick="onClick(this); document.getElementById('stand').play();" class="w3-hover-opacity">
+	</div>
+	
+	<div class="w3-col m4">
+      <img src="sleep.svg" style="width:100%" onclick="onClick(this); document.getElementById('sleep').play();" class="w3-hover-opacity">
+	</div>
+	
+	<div class="w3-col m4">
+      <img src="eat.svg" style="width:100%" onclick="onClick(this); document.getElementById('eat').play();" class="w3-hover-opacity">
+	</div> 
+	
+	<div class="w3-col m4">
+      <img src="walker.svg" style="width:100%" onclick="onClick(this); document.getElementById('walk').play();" class="w3-hover-opacity">
+	</div> 
+	<div class="w3-panel w3-card w3-light-grey"></div>
+	
+	
+	</div>
+		</div>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
+
